@@ -3,7 +3,7 @@
 // Osnovni PHP pojmovi: varijable, $_GET, echo, HTML, jednostavan CSS (bez sessiona i uploada)
 
 $naslov = "PHP dokument — vježba 1d";
-$autor  = "Ime Prezime";
+$autor  = "Domagoj Ševčenko";
 $opis   = "Ova stranica nadograđuje vježbu 1c: biramo temu (dark/light), odabiremo sliku i po želji prikazujemo opis.";
 
 // --- Dozvoljene vrijednosti ---
