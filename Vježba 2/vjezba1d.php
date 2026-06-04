@@ -9,9 +9,9 @@ $opis   = "Ova stranica nadograđuje vježbu 1c: biramo temu (dark/light), odabi
 // --- Dozvoljene vrijednosti ---
 $dozvoljeneTeme  = array("dark", "light");
 $dozvoljeneSlike = array(
-  "php"    => "img/php.jpg",
-  "server" => "img/server.jpg",
-  "code"   => "img/code.jpg"
+  "php"    => "php.jpg",
+  "server" => "server.jpg",
+  "code"   => "code.jpg"
 );
 
 // --- Ulaz (GET) s default vrijednostima ---
