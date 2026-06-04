@@ -1,0 +1,28 @@
+<?php
+$a = $b = $c = null;
+
+if (isset($_GET["a"]) && isset($_GET["b"]) && $_GET["a"] !== "" && $_GET["b"] !== "") {
+    $a = (float)$_GET["a"];
+    $b = (float)$_GET["b"];
+    $c = (3 * $a - $b) / 2;
+}
+?>
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <title>Vježba 2-4</title>
+</head>
+<body>
+  <form method="get">
+    <label>Vrijednost a: <input type="text" name="a" value="<?php echo htmlspecialchars($_GET['a'] ?? ''); ?>"></label><br>
+    <label>Vrijednost b: <input type="text" name="b" value="<?php echo htmlspecialchars($_GET['b'] ?? ''); ?>"></label><br>
+    <button type="submit">Pošalji</button>
+  </form>
+
+  <?php if ($c !== null): ?>
+    <p>c = <strong><?php echo $c; ?></strong></p>
+  <?php endif; ?>
+</body>
+</html>
+<!-- Naziv datoteke: vjezba2-4.php -->
